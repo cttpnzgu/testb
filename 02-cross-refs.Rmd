@@ -1,5 +1,12 @@
 # Cross-references {#cross}
 
+```{r}
+library(stringr)
+
+animals <- c("jaguar", "jay", "bat")
+str_detect(animals, "j")
+```
+
 Cross-references make it easier for your readers to find and link to elements in your book.
 
 ## Chapters and sub-chapters
